@@ -194,7 +194,8 @@ void Initialize()
     readings, the integral value is used for the actual offsets and the last proportional reading is ignored due to
     the fact it reacts to any noise.
   */
- //Modified by ansh
+ //Modified by ansh 
+  
   accelgyro.CalibrateAccel(6);
   accelgyro.CalibrateGyro(6);
   Serial.println("\nat 600 Readings");
